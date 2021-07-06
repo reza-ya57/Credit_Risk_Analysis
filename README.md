@@ -2,10 +2,12 @@
 ## Overview of the Study
 
 ### In this project by using machine learning technique we try to build a model to predict the credit risk for a peer to peer lending services company.
-#### Due to nature of the credit risk, it categorized as a unbalanced classification problem, so we used resampling technique to build and evaluate models. 
+#### Due to nature of the credit risk, it categorized as a unbalanced classification problem, so we used resampling technique to build and evaluate models. Below are two libraries that we used for this project
 - imbalanced-lean
 - scikit-learn
-#### Are two libraries that we used for this project. We used two below algorithms to oversample the data:
+
+### Methods and techniques that we used in this study are as below
+#### We used two below algorithms to oversample the data:
 - RandomOverSampler
 - SMOTE
 ##### We also used undersampling teqniques by using below algorithm
@@ -15,6 +17,32 @@
 #### And finaly we compare two new machine learning models that reduce bias to predict credit risk.
 - BalancedRandomForestClassifier
 - EasyEnsembleClassifier
+
+## Result
+### Random Oversampling Result
+- Balance Accuracy Score = 0.67
+
+![total_review](https://github.com/reza-ya57/Amazon_Vine_Analysis/blob/main/total_review_paid_unpaid.png)
+
+### SMOTE Oversampling
+- Balance Accuracy Score = 0.66
+- image
+
+### ClusterCentroids
+- Balance Accuracy Score = 0.54
+- image
+
+### SMOTEENN
+- Balance Accuracy Score = 0.64
+- image
+
+### Balanced Random Forest Classifier
+- Balance Accuracy Score = 0.77
+- image
+
+### AdaBoost Classifier
+- Balance Accuracy Score = 0.93
+- image
 
 
 ### What is Vine program?
