@@ -22,27 +22,31 @@
 ### Random Oversampling Result
 - Balance Accuracy Score = 0.67
 
-![total_review](https://github.com/reza-ya57/Amazon_Vine_Analysis/blob/main/total_review_paid_unpaid.png)
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/RandomOverSampling.png)
 
 ### SMOTE Oversampling
 - Balance Accuracy Score = 0.66
-- image
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/SMOT.png)
 
 ### ClusterCentroids
 - Balance Accuracy Score = 0.54
-- image
+
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/Undersampling.png)
 
 ### SMOTEENN
 - Balance Accuracy Score = 0.64
-- image
+
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
 
 ### Balanced Random Forest Classifier
 - Balance Accuracy Score = 0.77
-- image
+
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/BRF.png)
 
 ### AdaBoost Classifier
 - Balance Accuracy Score = 0.93
-- image
+
+![total_review](https://github.com/reza-ya57/Credit_Risk_Analysis/blob/main/Images/AdaBoost.png)
 
 
 ### What is Vine program?
