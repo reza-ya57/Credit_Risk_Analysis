@@ -51,6 +51,7 @@
 
 ## Summary
 
-With comparing the Accuracy Score among different model that I used for this study, AdaBoost Classifier has the highest accuracy score. On the other hand precision for predicting the high risk credit is not good also recall score has a good result. 
-In summary I can say this model has a imbalance sensitivity and precision as we can also see in f1 score which is low, so I dont recomend this model for predicting the credit risk. 
+By checking the different method that we used to build a model, random over sampling, smote and undersampling method is not recomend as a method for sammpling for this dataset as they are working on the actual data from the real users to build a training data. You can see the accuracy of these models which are below than 67%.
+In the other hand by using balanced random forest and ensemble adaboost classifier our model can create more data to increase the accuracy and help balance of sampling. So I recomend using AdaBoost Classifier or Balanced Random Forest Classifier to build a model for this dataset. Adaboost Classifier is the best one based on the result that is mentioned in above. 
+
 
